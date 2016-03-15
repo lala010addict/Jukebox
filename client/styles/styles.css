@@ -1,1 +1,76 @@
 
+.clickable {
+  cursor: pointer;
+  pointer-events: initial;
+}
+
+.track {
+  padding: 14px;
+}
+
+.track .artwork {
+  height: 100px;
+  width: 100px;
+}
+
+.track .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.has-footer {
+  margin-bottom: 180px;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.playlist {
+  display: flex;
+  overflow-x: auto;
+}
+
+.playlist .track {
+  flex-shrink: 0;
+}
+
+.playlist .selected .track {
+  background-color: rgba(12, 190, 255, 0.5);
+}
+
+.playlist .track .title {
+  display: none;
+}
+
+.playback-controls {
+  display: flex;
+  margin: 14px;
+}
+
+.playback-controls .play-pause {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.playback-controls .progress-controls {
+  background-color: rgba(12, 190, 255, 0.5);
+}
+
+.playback-controls .playback-data {
+  flex-shrink: 0;
+  flex-grow: 1;
+  margin-left: 14px;
+}
+
+.playback-controls .playback-data .title {
+  color: white;
+}
+
+.playback-controls .playback-data .progress {
+  margin-bottom: 0px;
+}

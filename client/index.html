@@ -2,29 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Jukebox</title>
+    <title>jukebox</title>
 
     <!-- dependencies -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <!--  styles -->
+    <!-- your styles -->
     <link rel="stylesheet" href="styles/styles.css">
 
     <!-- dependencies -->
-    <script src="https://connect.soundcloud.com/sdk-2.0.0.js"></script>
+    <script src="//connect.soundcloud.com/sdk-2.0.0.js"></script>
     <script src="bower_components/underscore/underscore-min.js"></script>
     <script src="bower_components/react/JSXTransformer.js"></script>
     <script src="bower_components/react/react.js"></script>
   </head>
   <body>
 
-
-
-
     <div id="app"></div>
-
-
-    <!--  scripts -->
+    
+    <!-- your scripts -->
     <script type="text/javascript" src="scripts/config.js"></script>
-    <script type="text/jsx" src="scripts/app.js"></script>
+
+    <script type="text/jsx" src="scripts/searchSoundCloud.js"></script>
+    <script type="text/jsx" src="scripts/track.js"></script>
+    <script type="text/jsx" src="scripts/trackSelector.js"></script>
+    <script type="text/jsx" src="scripts/playlist.js"></script>
+    <script type="text/jsx" src="scripts/audioVisualizer.js"></script>
+    <script type="text/jsx" src="scripts/playbackControls.js"></script>
+    <script type="text/jsx" src="scripts/jukeboxApp.js"></script>
+        <script type="text/jsx" src="scripts/app.js"></script>
   </body>
 </html>
